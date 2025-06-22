@@ -3,10 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Greeting Page</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <!-- Your code goes here -->
-    <script src="greeting.js"></script>
+    <h2 id="friend-greeting"></h2>
+
+  <form id="madlib-form">
+    <label>Past-tense verb:
+      <input type="text" id="verb" />
+    </label><br>
+    <label>Adjective:
+      <input type="text" id="adjective" />
+    </label><br>
+    <button type="submit">Make Madlib</button>
+  </form>
+
+  <script src="greeting.js"></script>
 </body>
 </html>

@@ -1,1 +1,59 @@
-/* Your code goes here */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #00ffea;
+}
+
+form {
+  margin: 2rem auto;
+  max-width: 300px;
+  padding: 1.5rem;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00ffea;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #623794;
+  color: #973251;
+}
+
+button {
+  background-color: #00ffea;
+  color: #574e8d;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00c6b8;
+}
+
+#computer-response {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ff5c5c;
+}
